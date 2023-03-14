@@ -1,0 +1,45 @@
+.myButtons {
+}
+
+li {
+  display: inline-block;
+  background-color: green;
+  color: antiquewhite;
+  padding: 10px;
+}
+
+/* scaling  */
+.normalSize {
+  background-color: orange;
+  color: antiquewhite;
+  width: 200px;
+  height: 200px;
+
+  transform-origin: top left;
+
+  transition: transform 500ms ease;
+}
+
+.originTopLeft {
+  transform-origin: top left;
+}
+
+.originCenter {
+  transform-origin: center;
+}
+
+.originbottomRight {
+  transform-origin: bottom right;
+}
+
+.scaleWidthDouble {
+  transform: scaleX(200%);
+}
+
+.scaleHeightDouble {
+  transform: scaleY(200%);
+}
+
+.scaleDouble {
+  transform: scale(200%);
+}
